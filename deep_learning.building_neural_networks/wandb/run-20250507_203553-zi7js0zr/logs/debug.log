@@ -1,0 +1,43 @@
+2025-05-07 20:35:53,800 INFO    MainThread:81543 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250507_203553-zi7js0zr/logs/debug.log
+2025-05-07 20:35:53,800 INFO    MainThread:81543 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250507_203553-zi7js0zr/logs/debug-internal.log
+2025-05-07 20:35:53,800 INFO    MainThread:81543 [wandb_init.py:init():756] calling init triggers
+2025-05-07 20:35:53,800 INFO    MainThread:81543 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'dataset': 'MNIST', 'learning_rate': 0.003, 'optimizer': 'Adam', 'epochs': 20, '_wandb': {}}
+2025-05-07 20:35:53,800 INFO    MainThread:81543 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-05-07 20:39:48,795 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:39:48,796 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:42:35,739 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:42:35,870 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:42:35,870 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:46:11,769 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:46:11,773 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:46:11,773 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:46:12,488 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:46:12,491 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:46:12,491 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:46:12,734 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:46:12,738 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:46:12,738 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:47:07,911 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:47:07,914 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:47:07,914 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:51:26,794 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:51:26,889 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:51:26,890 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:53:41,195 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:53:42,706 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:53:42,707 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:54:52,037 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:54:53,501 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:54:53,501 INFO    MainThread:81543 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-07 20:55:21,649 INFO    MainThread:81543 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-07 20:55:21,831 INFO    MainThread:81543 [wandb_run.py:_finish():2110] finishing run kevincorstorphine-self/Hancock/xt7ocnsr
+2025-05-07 20:55:21,832 ERROR   MainThread:81543 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-05-07 20:55:21,832 INFO    MainThread:81543 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-07 20:55:21,832 INFO    MainThread:81543 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-05-07 20:55:21,832 INFO    MainThread:81543 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-05-07 20:55:21,832 INFO    MainThread:81543 [wandb_run.py:_restore():2332] restore
+2025-05-07 20:55:21,832 INFO    MainThread:81543 [wandb_run.py:_restore():2338] restore done
+2025-05-07 20:55:24,401 INFO    MainThread:81543 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-05-07 20:55:24,401 INFO    MainThread:81543 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-05-07 20:55:24,403 INFO    MainThread:81543 [wandb_run.py:_footer_sync_info():3924] logging synced files

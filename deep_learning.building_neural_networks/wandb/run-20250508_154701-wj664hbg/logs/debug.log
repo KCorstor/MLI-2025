@@ -1,0 +1,9 @@
+2025-05-08 15:47:01,339 INFO    MainThread:8173 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_154701-wj664hbg/logs/debug.log
+2025-05-08 15:47:01,340 INFO    MainThread:8173 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_154701-wj664hbg/logs/debug-internal.log
+2025-05-08 15:47:01,340 INFO    MainThread:8173 [wandb_init.py:init():756] calling init triggers
+2025-05-08 15:47:01,340 INFO    MainThread:8173 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'architecture': 'SimpleNN', 'dataset': 'MNIST + Fashion-MNIST', 'epochs': 10, 'batch_size': 64, 'learning_rate': 0.001, 'optimizer': 'Adam', '_wandb': {}}
+2025-05-08 15:47:01,340 INFO    MainThread:8173 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-05-08 15:47:01,341 INFO    MainThread:8173 [wandb_watch.py:_watch():71] Watching
+2025-05-08 15:47:01,396 INFO    MainThread:8173 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-08 15:47:01,397 INFO    MainThread:8173 [wandb_init.py:_pause_backend():554] pausing backend

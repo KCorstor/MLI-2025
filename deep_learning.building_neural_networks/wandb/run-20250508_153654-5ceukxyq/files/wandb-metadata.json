@@ -1,0 +1,35 @@
+{
+  "os": "macOS-13.7.5-x86_64-i386-64bit",
+  "python": "CPython 3.11.6",
+  "startedAt": "2025-05-08T22:36:54.764550Z",
+  "program": "/Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/maven.ipynb",
+  "codePath": "deep_learning.building_neural_networks/maven.ipynb",
+  "git": {
+    "remote": "git@github.com:deepatlasai/mli-2025-05-05-coursework.git",
+    "commit": "1b44aae403e98f055705736efaa257cbc74117f0"
+  },
+  "email": "kevincorstorphine@gmail.com",
+  "root": "/Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks",
+  "host": "Kevins-MacBook-Pro.local",
+  "executable": "/Users/kevincorstorphine/.local/share/virtualenvs/mli-2025-05-05-coursework-rNXVWyyx/bin/python",
+  "codePathLocal": "maven.ipynb",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1000240963584",
+      "used": "450649722880"
+    },
+    "/System/Volumes/Data": {
+      "total": "1000240963584",
+      "used": "450649722880"
+    }
+  },
+  "memory": {
+    "total": "34359738368"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  }
+}

@@ -1,0 +1,16 @@
+{"time":"2025-05-07T18:15:35.142347-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250507_181534-07zmrj4n/logs/debug-core.log"}
+{"time":"2025-05-07T18:15:35.160402-07:00","level":"INFO","msg":"created new stream","id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:35.160467-07:00","level":"INFO","msg":"stream: started","id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:35.160514-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:35.160554-07:00","level":"INFO","msg":"sender: started","stream_id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:35.160649-07:00","level":"INFO","msg":"handler: started","stream_id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:35.443659-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T18:15:36.545945-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T18:15:36.546021-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T18:15:37.552907-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact MNIST","runtime_seconds":1.012500031,"subtasks":[{"desc":"test/MNIST/raw/t10k-images-idx3-ubyte","runtime_seconds":0.429771462,"progress":"464.0KB/7.5MB"},{"desc":"train/MNIST/raw/t10k-images-idx3-ubyte","runtime_seconds":0.429754315,"progress":"592.0KB/7.5MB"},{"desc":"test/MNIST/raw/train-images-idx3-ubyte","runtime_seconds":0.429738169,"progress":"640.0KB/44.9MB"},{"desc":"train/MNIST/raw/train-images-idx3-ubyte","runtime_seconds":0.429580179,"progress":"416.0KB/44.9MB"},{"desc":"test/MNIST/raw/train-images-idx3-ubyte.gz","runtime_seconds":0.42940889,"progress":"320.0KB/9.5MB"},{"desc":"train/MNIST/raw/train-labels-idx1-ubyte","runtime_seconds":0.429297192,"progress":"58.6KB/58.6KB"},{"desc":"train/MNIST/raw/t10k-images-idx3-ubyte.gz","runtime_seconds":0.429252687,"progress":"240.0KB/1.6MB"},{"desc":"test/MNIST/raw/t10k-images-idx3-ubyte.gz","runtime_seconds":0.429061137,"progress":"272.0KB/1.6MB"},{"desc":"train/MNIST/raw/train-images-idx3-ubyte.gz","runtime_seconds":0.429048584,"progress":"240.0KB/9.5MB"}]}],"total_operations":1}}
+{"time":"2025-05-07T18:15:55.071558-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T18:15:56.253945-07:00","level":"INFO","msg":"stream: closing","id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:56.253993-07:00","level":"INFO","msg":"handler: closed","stream_id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:56.254022-07:00","level":"INFO","msg":"sender: closed","stream_id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:56.254011-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"07zmrj4n"}
+{"time":"2025-05-07T18:15:56.254184-07:00","level":"INFO","msg":"stream: closed","id":"07zmrj4n"}

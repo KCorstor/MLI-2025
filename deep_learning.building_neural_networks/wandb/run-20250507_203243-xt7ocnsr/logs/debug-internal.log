@@ -1,0 +1,40 @@
+{"time":"2025-05-07T20:32:43.284623-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250507_203243-xt7ocnsr/logs/debug-core.log"}
+{"time":"2025-05-07T20:32:43.300542-07:00","level":"INFO","msg":"created new stream","id":"xt7ocnsr"}
+{"time":"2025-05-07T20:32:43.300608-07:00","level":"INFO","msg":"stream: started","id":"xt7ocnsr"}
+{"time":"2025-05-07T20:32:43.300636-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"xt7ocnsr"}
+{"time":"2025-05-07T20:32:43.300677-07:00","level":"INFO","msg":"sender: started","stream_id":"xt7ocnsr"}
+{"time":"2025-05-07T20:32:43.300701-07:00","level":"INFO","msg":"handler: started","stream_id":"xt7ocnsr"}
+{"time":"2025-05-07T20:32:43.767871-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T20:32:44.799608-07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-07T20:32:47.973986-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:35:43.627463-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:35:43.629873-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:35:53.793536-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:35:54.586308-07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-07T20:39:48.796475-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:42:35.740001-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:42:35.870861-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:46:11.769825-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:46:11.773995-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:46:12.48858-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:46:12.491855-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:46:12.735371-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:46:12.740187-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:47:07.912469-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:47:07.915223-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:51:26.796008-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:51:26.890778-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:53:41.196982-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:53:42.707939-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:54:52.038894-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:54:53.502129-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-07T20:55:21.650167-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-07T20:55:21.833337-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T20:55:21.83337-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T20:55:22.838783-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact MNIST_classifier","runtime_seconds":1.009395087}],"total_operations":1}}
+{"time":"2025-05-07T20:55:23.257698-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T20:55:24.408019-07:00","level":"INFO","msg":"stream: closing","id":"xt7ocnsr"}
+{"time":"2025-05-07T20:55:24.408056-07:00","level":"INFO","msg":"handler: closed","stream_id":"xt7ocnsr"}
+{"time":"2025-05-07T20:55:24.408074-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xt7ocnsr"}
+{"time":"2025-05-07T20:55:24.408079-07:00","level":"INFO","msg":"sender: closed","stream_id":"xt7ocnsr"}
+{"time":"2025-05-07T20:55:24.408188-07:00","level":"INFO","msg":"stream: closed","id":"xt7ocnsr"}

@@ -1,0 +1,64 @@
+2025-05-08 15:36:54,485 INFO    MainThread:8173 [wandb_setup.py:_flush():68] Current SDK version is 0.19.5
+2025-05-08 15:36:54,485 INFO    MainThread:8173 [wandb_setup.py:_flush():68] Configure stats pid to 8173
+2025-05-08 15:36:54,485 INFO    MainThread:8173 [wandb_setup.py:_flush():68] Loading settings from /Users/kevincorstorphine/.config/wandb/settings
+2025-05-08 15:36:54,485 INFO    MainThread:8173 [wandb_setup.py:_flush():68] Loading settings from /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/settings
+2025-05-08 15:36:54,485 INFO    MainThread:8173 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-05-08 15:36:54,485 INFO    MainThread:8173 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_153654-5ceukxyq/logs/debug.log
+2025-05-08 15:36:54,486 INFO    MainThread:8173 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_153654-5ceukxyq/logs/debug-internal.log
+2025-05-08 15:36:54,486 INFO    MainThread:8173 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x13a383450>
+2025-05-08 15:36:54,486 INFO    MainThread:8173 [wandb_init.py:init():756] calling init triggers
+2025-05-08 15:36:54,486 INFO    MainThread:8173 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'architecture': 'SimpleNN', 'dataset': 'MNIST + Fashion-MNIST', 'epochs': 10, 'batch_size': 64, 'learning_rate': 0.001, 'optimizer': 'Adam', '_wandb': {}}
+2025-05-08 15:36:54,486 INFO    MainThread:8173 [wandb_init.py:init():789] starting backend
+2025-05-08 15:36:54,740 INFO    MainThread:8173 [wandb_init.py:init():793] sending inform_init request
+2025-05-08 15:36:54,763 INFO    MainThread:8173 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-05-08 15:36:54,764 INFO    MainThread:8173 [wandb_init.py:init():808] backend started and connected
+2025-05-08 15:36:54,768 INFO    MainThread:8173 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-05-08 15:36:54,769 INFO    MainThread:8173 [wandb_init.py:init():901] updated telemetry
+2025-05-08 15:36:54,800 INFO    MainThread:8173 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-05-08 15:36:55,076 INFO    MainThread:8173 [wandb_init.py:init():984] starting run threads in backend
+2025-05-08 15:36:55,266 INFO    MainThread:8173 [wandb_run.py:_console_start():2385] atexit reg
+2025-05-08 15:36:55,266 INFO    MainThread:8173 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-05-08 15:36:55,266 INFO    MainThread:8173 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-05-08 15:36:55,266 INFO    MainThread:8173 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-05-08 15:36:55,269 INFO    MainThread:8173 [wandb_init.py:init():1026] run started, returning control to user process
+2025-05-08 15:36:55,270 INFO    MainThread:8173 [wandb_watch.py:_watch():71] Watching
+2025-05-08 15:36:55,424 INFO    MainThread:8173 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-08 15:36:55,424 INFO    MainThread:8173 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-08 15:37:27,802 INFO    MainThread:8173 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-08 15:37:27,806 INFO    MainThread:8173 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-08 15:37:27,806 INFO    MainThread:8173 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-08 15:37:28,499 INFO    MainThread:8173 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-08 15:37:28,502 INFO    MainThread:8173 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-08 15:37:28,503 INFO    MainThread:8173 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-08 15:37:33,004 INFO    MainThread:8173 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-08 15:37:33,010 INFO    MainThread:8173 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-08 15:37:33,010 INFO    MainThread:8173 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-08 15:37:37,798 INFO    MainThread:8173 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-08 15:37:37,805 INFO    MainThread:8173 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_153737-xg4mbvdt/logs/debug.log
+2025-05-08 15:37:37,805 INFO    MainThread:8173 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_153737-xg4mbvdt/logs/debug-internal.log
+2025-05-08 15:37:37,805 INFO    MainThread:8173 [wandb_init.py:init():756] calling init triggers
+2025-05-08 15:37:37,805 INFO    MainThread:8173 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'architecture': 'SimpleNN', 'dataset': 'MNIST + Fashion-MNIST', 'epochs': 10, 'batch_size': 64, 'learning_rate': 0.001, 'optimizer': 'Adam', '_wandb': {}}
+2025-05-08 15:37:37,805 INFO    MainThread:8173 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-05-08 15:37:37,806 INFO    MainThread:8173 [wandb_watch.py:_watch():71] Watching
+2025-05-08 15:37:37,848 INFO    MainThread:8173 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-08 15:37:37,848 INFO    MainThread:8173 [wandb_init.py:_pause_backend():554] pausing backend
+2025-05-08 15:39:11,327 INFO    MainThread:8173 [wandb_init.py:_resume_backend():559] resuming backend
+2025-05-08 15:39:11,337 INFO    MainThread:8173 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_153911-liyetyvo/logs/debug.log
+2025-05-08 15:39:11,337 INFO    MainThread:8173 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_153911-liyetyvo/logs/debug-internal.log
+2025-05-08 15:39:11,338 INFO    MainThread:8173 [wandb_init.py:init():756] calling init triggers
+2025-05-08 15:39:11,338 INFO    MainThread:8173 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'architecture': 'SimpleNN', 'dataset': 'MNIST + Fashion-MNIST', 'epochs': 10, 'batch_size': 64, 'learning_rate': 0.001, 'optimizer': 'Adam', '_wandb': {}}
+2025-05-08 15:39:11,338 INFO    MainThread:8173 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-05-08 15:39:11,339 INFO    MainThread:8173 [wandb_watch.py:_watch():71] Watching
+2025-05-08 15:39:11,342 INFO    MainThread:8173 [wandb_run.py:_finish():2110] finishing run kevincorstorphine-self/mnist-fashion-mnist-classification/5ceukxyq
+2025-05-08 15:39:11,344 ERROR   MainThread:8173 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-05-08 15:39:11,344 INFO    MainThread:8173 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-08 15:39:11,344 INFO    MainThread:8173 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-05-08 15:39:11,344 INFO    MainThread:8173 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-05-08 15:39:11,344 INFO    MainThread:8173 [wandb_run.py:_restore():2332] restore
+2025-05-08 15:39:11,345 INFO    MainThread:8173 [wandb_run.py:_restore():2338] restore done
+2025-05-08 15:39:13,162 INFO    MainThread:8173 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-05-08 15:39:13,162 INFO    MainThread:8173 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-05-08 15:39:13,163 INFO    MainThread:8173 [wandb_run.py:_footer_sync_info():3924] logging synced files

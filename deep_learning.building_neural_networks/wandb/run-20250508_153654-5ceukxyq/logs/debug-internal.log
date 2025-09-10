@@ -1,0 +1,26 @@
+{"time":"2025-05-08T15:36:54.768189-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/kevincorstorphine/Desktop/mli-2025-05-05-coursework/deep_learning.building_neural_networks/wandb/run-20250508_153654-5ceukxyq/logs/debug-core.log"}
+{"time":"2025-05-08T15:36:54.780228-07:00","level":"INFO","msg":"created new stream","id":"5ceukxyq"}
+{"time":"2025-05-08T15:36:54.780303-07:00","level":"INFO","msg":"stream: started","id":"5ceukxyq"}
+{"time":"2025-05-08T15:36:54.780465-07:00","level":"INFO","msg":"handler: started","stream_id":"5ceukxyq"}
+{"time":"2025-05-08T15:36:54.780895-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"5ceukxyq"}
+{"time":"2025-05-08T15:36:54.78096-07:00","level":"INFO","msg":"sender: started","stream_id":"5ceukxyq"}
+{"time":"2025-05-08T15:36:55.085124-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T15:36:55.424753-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T15:37:27.803279-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T15:37:27.807343-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T15:37:28.50005-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T15:37:28.503586-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T15:37:33.005465-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T15:37:33.011601-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T15:37:37.79915-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T15:37:37.849121-07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T15:39:11.328829-07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T15:39:11.346459-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T15:39:11.346571-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T15:39:11.97812-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T15:39:12.158098-07:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-08T15:39:13.167204-07:00","level":"INFO","msg":"stream: closing","id":"5ceukxyq"}
+{"time":"2025-05-08T15:39:13.167232-07:00","level":"INFO","msg":"handler: closed","stream_id":"5ceukxyq"}
+{"time":"2025-05-08T15:39:13.167247-07:00","level":"INFO","msg":"sender: closed","stream_id":"5ceukxyq"}
+{"time":"2025-05-08T15:39:13.167245-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5ceukxyq"}
+{"time":"2025-05-08T15:39:13.167349-07:00","level":"INFO","msg":"stream: closed","id":"5ceukxyq"}
