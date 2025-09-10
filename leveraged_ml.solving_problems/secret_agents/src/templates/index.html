@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Agents</title>
+</head>
+
+<body>
+    <div id="chat-box">
+        <ul id="messages"></ul>
+        <input id="user-message" placeholder="Type your command..." autocomplete="off">
+        <button id="send-btn">Send</button>
+    </div>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script>
+        var socket = io();
+
+        document.getElementById('send-btn').addEventListener('click', function () {
+            var msg = document.getElementById('user-message').value;
+            if (msg.trim() !== "") {
+                // Append user message to the list
+                var userLi = document.createElement('li');
+                userLi.innerText = "You: " + msg;
+                document.getElementById('messages').appendChild(userLi);
+
+                // Emit the message to the server
+                socket.emit('message', msg);
+                document.getElementById('user-message').value = '';
+            }
+        });
+
+        socket.on('response', function (data) {
+            if (data.message.trim() !== "") {
+                var li = document.createElement('li');
+                li.innerText = "Agent: " + data.message;
+
+                // Add rating options
+                var ratingDiv = document.createElement('div');
+                ratingDiv.innerHTML = `
+                    <label>Rate this interaction:</label>
+                    <select class="rating">
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <button class="rate-btn">Submit</button>
+                `;
+                li.appendChild(ratingDiv);
+                document.getElementById('messages').appendChild(li);
+
+                // Handle rating submission
+                ratingDiv.querySelector('.rate-btn').addEventListener('click', function () {
+                    var rating = ratingDiv.querySelector('.rating').value;
+                    if (rating) {
+                        socket.emit('rate_interaction', { message: data.message, rating: rating });
+                        ratingDiv.innerHTML = `Rating submitted: ${rating}`;
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

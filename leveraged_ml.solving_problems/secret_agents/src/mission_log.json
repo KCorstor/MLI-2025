@@ -1,0 +1,9 @@
+{
+    "conversation": [
+        {
+            "user_input": "How are you?",
+            "llm_response": "I'm functioning within normal parameters. Ready to assist with your mission.",
+            "rating": null
+        }
+    ]
+}
